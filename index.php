@@ -191,6 +191,16 @@ if (isset($_POST['action'])) {
 		</div>
 	</section>
 
+	<footer class="footer">
+		<div class="container">
+			<div class="content is-centered">
+				<p>
+					Created by <a href="http://madbob.org/">Roberto -MadBob- Guido</a>.
+				</p>
+			</div>
+		</div>
+	</footer>
+
 	<script type="application/javascript" src="js/jquery-2.2.0.min.js"></script>
 	<script type="application/javascript" src="js/gnus.js"></script>
 </body>
