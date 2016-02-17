@@ -22,7 +22,7 @@ while ($row = $results->fetchArray()) {
 
 			if ($pub > $last_update) {
 				$status = sprintf('%s - %s', $item->get_title(), $item->get_permalink());
-				echo do_call('POST', '/api/statuses/update.json', ['status' => $status], [$row['nickname'], $row['password']]) . "\n";
+				do_call('POST', '/api/statuses/update.json', ['status' => $status], [$row['nickname'], $row['password']]);
 				$last_update = $pub;
 			}
 		}
