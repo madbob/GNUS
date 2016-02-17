@@ -88,6 +88,21 @@ if (isset($_POST['action'])) {
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 	<title>GNUS</title>
+	
+	<meta name="twitter:title" content="GNUS" />
+	<meta name="twitter:creator" content="@madbob" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:url" content="http://gnus.madbob.org/" />
+	<meta name="twitter:image" content="http://gnus.madbob.org/img/tw.png" />
+
+	<meta property="og:site_name" content="GNUS" />
+	<meta property="og:title" content="GNUS" />
+	<meta property="og:url" content="http://gnus.madbob.org/" />
+	<meta property="og:image" content="http://gnus.madbob.org/img/fb.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:country-name" content="Italy" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:description" content="Populating the GNU Social network, one feed at a time" />
 
 	<link rel="stylesheet" type="text/css" href="css/bulma.css">
 </head>
