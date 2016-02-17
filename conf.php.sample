@@ -1,0 +1,9 @@
+<?php
+
+global $conf;
+
+$conf['db']['path'] = 'data/data.sqlite3';
+
+$conf['social']['name'] = 'MadSocial';
+$conf['social']['url'] = 'https://social.madbob.org';
+
