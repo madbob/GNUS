@@ -181,11 +181,11 @@ if (isset($_POST['action'])) {
 
 			<form method="POST" id="adding">
 				<p class="control">
-					<input class="input" type="text" name="url" placeholder="URL of the Atom/RSS feed">
+					<input class="input" type="text" name="url" placeholder="URL of the Atom/RSS feed" autocomplete="off">
 				</p>
 
 				<p class="control">
-					<button type="submit" class="button is-primary">Submit</button>
+					<button type="submit" class="button is-primary" autocomplete="off">Submit</button>
 				</p>
 			</form>
 		</div>
