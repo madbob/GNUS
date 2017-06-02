@@ -34,6 +34,14 @@ $(document).ready(function() {
 				}
 				
 				b.after(feedback);
+			},
+			
+			error: function() {
+				var b = form.find('button');
+				b.removeAttr('disabled').removeClass('is-loading').parent();
+
+				feedback = $('<div class="notification is-danger">An unspecificed error occourred</div>');
+				b.after(feedback);
 			}
 		});
 
