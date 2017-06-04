@@ -24,6 +24,7 @@ while ($row = $results->fetchArray()) {
 				$status = sprintf('%s - %s', $item->get_title(), $item->get_permalink());
 				do_call('POST', '/api/statuses/update.json', ['status' => $status], [$row['nickname'], $row['password']]);
 				$last_update = $pub;
+				usleep(200000);
 			}
 		}
 
